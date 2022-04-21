@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-image: url("../img/pexels-photo-2341290.jpeg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem;
+}
+.bakery-name{
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 5rem;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+}
+.list{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.info{
+    display: flex;
+    width: 12rem;
+    justify-content: space-between;
+}
+/* end of nav */
+.cake{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.cake-h1{
+    font-size: 45px;
+}
+.cake-p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+}
+.cake-text{ 
+    width: calc(50% - 2.1rem);
+}
+.cake-img{
+    width: calc(50% - 2.1rem);
+    display: flex;
+    justify-content: space-around;
+}
+.cake-button {   
+    background-color: rgb(163, 81, 4);
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+.cake-button p{
+    position: relative;
+    top: 30%;
+}
+.button{
+    display: flex; 
+}
+.arrow-button{
+    background-color: rgb(206, 182, 168);
+}
+.snacks{
+    display: flex;
+    position: absolute;
+    width: 92%;
+    justify-content: space-evenly; 
+}
+.img1{
+    width: 40%;
+}
+.about{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+.about-h1{
+    font-size: 35px;
+}
+.pink{
+    color: rgb(253, 153, 168);
+    font-size: 20px;
+  }
+.lighter{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+    font-size: 18px;
+}
+.about-text{ 
+    width: calc(50% );
+}
+.about-img{
+    width: calc(50% - 2.1rem);
+    display: flex;
+    justify-content: space-around;
+}
+.about-img1{
+    width: 70%;
+    height: 25em;
+}
+@media only screen and (max-width: 1000px) {
+    .about-img1{
+        width: 70%;
+        height: 30em;
+    }
+}
+.recipes{
+    margin-top: 6rem;
+}
+@media only screen and (min-width: 1000px) {
+    .recipes-img{
+    margin-left: 13%;
+}
+.recipes{
+       margin-left: 6%;
+}
+}
+.recipe-h1{
+    padding-top: 15px;
+    font-size: 30px;
+}
+.recipe-img{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8%;
+}
+.no-height/*for main recipe images*/{
+    width: 100%;
+    height: 60%;
+}
+.recipe-img1{
+    width: 18%;
+}
+.recipe-p{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: -10px;
+    background-color: whitesmoke;
+}
+.orange{
+    color: orange;
+}
+.yellow{
+    color: yellow;
+}
+.menu{
+    margin-top: 4rem;
+}
+.menu-image{
+    width: 85%;
+    height: 70%;
+}
+.menu-p{
+    text-align: center;
+    width: 85%;
+    position: relative;
+    top: -10px;
+    background-color: whitesmoke;
+}
+.menu-img{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+.menu-button{
+    display: flex;
+    justify-content: right;  
+    gap: 1rem;
+    width: 90%;
+    padding: 2em;
+}
+.button-menu{
+    padding: 5px;
+    background-color: rgb(223, 231, 231);
+}
+.button-menu:first-child{
+    background-color: rgb(237, 206, 211);
+}
+.button-menu:hover{
+    background-color: rgb(209, 227, 227);
+    cursor: pointer;
+}
+.picture{
+    padding: 2em 2em 0.5em 2em;
+}
+.middle{
+    text-align: center;
+}
+.menu-link{
+    display: flex;
+    justify-content: right;  
+    gap: 1rem;
+    width: 80%;
+}
+.links{
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+}
+.links:hover{
+    background-color: bisque;
+}
+.links:nth-child(8){
+    background-color: rgb(238, 197, 182);
+    padding: 3px;
+}
+.links:nth-child(9){
+    background-color: rgb(238, 197, 182);
+    padding: 3px;
+}
+.testimonial{
+    margin: 6em 2em 2em 2em;
+}
+.testimonialc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimonial-text{
+    width: calc(35% - 1rem);
+}
+.test2{
+    width: calc(35% - 1rem);
+    height: 35%;
+}
+.testimonial-text2{
+    padding: 3em 3em 1em 3em;
+    background-color: rgb(243, 245, 248);
+}
+.logo{
+    width: 49px;
+}
+.test-p{
+    margin: 2rem 0 3rem 0;
+}
+.block{
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.test-logo{
+    display: flex;
+    margin-top: 4em;
+    gap: 1em;
+}
+.test-logo p{
+    display: block;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.light{
+    font-size: 0.7em;
+}
+.test-picture{
+    width: 100%;
+    height: 30%;
+}
+@media only screen and (max-width: 1200px) {
+    .test-picture{
+        width: 100%;
+        height: 50%;
+    } 
+}
+
+.test-num{
+    margin-top: 4em;
+}
+.h1{
+    display: inline-block;
+}
+.input{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0rem 15rem 15rem 15rem;
+    gap: 3.5%;
+}
+.grid{
+    flex-basis: 31%;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.inputs{
+    border: none;
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 200%;
+    padding-left: 2rem;
+}
+.i{
+    position: absolute;
+    left: 2%;
+    top: 50%;
+}
+.flex {
+    flex-basis: 100%;
+    position: relative;
+    margin-bottom: 1em;
+}
+.i2{
+    position: absolute;
+    left: 1%;
+    top: 350%;
+}
+.diff{
+    border: none;
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 800%;
+    padding-left: 2rem;   
+}
+.button2{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+.test-button {   
+    background-color: rgb(163, 81, 4);
+    height: 40px;   
+    color: white;
+    cursor: pointer;
+}
+.test-button p{
+    position: relative;
+    top: 30%;
+}
+.arrow-test-button{
+    background-color: rgb(206, 182, 168);
+}
+.footer{
+    padding: 3em;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6em;
+}
+.f-list{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.footer-p p{
+    margin-bottom: 2em;
+}
+.foot-input{
+    width: 100%;
+    border: none;
+    height: 800%;
+    padding: 1em;
+    background-color: rgb(242, 242, 242);
+}
+.footer-input{
+    width: 100%;
+    height: 4%;
+    position: relative;
+}
+.i3{
+    position: absolute;
+    left: 90%;
+    top: 350%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(163, 81, 4);
+}
+.copy{
+    display: flex;
+    justify-content: space-around;
+}
+.copy p{
+    font-size: 12px;
+}
