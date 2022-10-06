@@ -1,0 +1,162 @@
+.testimonial{
+    margin: 6em 2em 2em 2em;
+}
+.testimonialc{
+    display: flex;
+    justify-content: space-evenly;  
+}
+.testimonial-text{
+    width: calc(35% - 1rem);
+    overflow: hidden;
+}
+.test2{
+    width: calc(35% - 1rem);
+}
+
+.left{
+    cursor: pointer;
+}
+.right{
+    cursor: pointer;
+}
+.testimonial-text2{
+    padding: 3em 3em 1em 3em;
+    box-shadow: 0px 4px 4px 4px rgb(242, 240, 240);
+    font-size: larger;
+    line-height: 1.6rem;
+    max-height: 79%;
+    overflow: hidden;
+}
+.logo{
+    width: 49px;
+}
+.test-p{
+    margin: 2rem 0 3rem 0;
+}
+.block{
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.test-logo{
+    display: flex;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    gap: 1em;
+}
+.test-logo p{
+    display: block;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.light{
+    font-size: 0.7em;
+}
+.test-picture{
+    width: 10%;
+    max-height: 10%;
+
+}
+.line-ul{
+    display: flex;
+    margin-top: 25%;
+    width: 100%;
+    margin-left: -7%;
+    list-style: none;
+}
+.line-li{
+    width: 10%;
+    cursor: pointer;
+    border: 2px solid rgb(221, 219, 219);
+}
+.selected{
+    border: 2px solid rgb(129, 81, 81);
+    background-color: rgb(129, 81, 81);
+}
+@media only screen and (max-width: 1200px) {
+    .test-picture{
+        width: 100%;
+        height: 50%;
+    } 
+}
+
+.test-num{
+    margin-top: 4em;
+}
+.h1{
+    display: inline-block;
+}
+.input{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0rem 15rem 15rem 15rem;
+    gap: 3.5%;
+}
+.grid{
+    flex-basis: 31%;
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+.inputs{
+    border: none;
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 200%;
+    padding: .35rem;
+    padding-left: 2.5rem;
+}
+.i{
+    position: absolute;
+    left: 4%;
+    top: 65%;
+}
+.flex {
+    flex-basis: 100%;
+    position: relative;
+    margin-bottom: 1em;
+}
+.i2{
+    position: absolute;
+    left: 1%;
+    top: 350%;
+}
+.diff{
+    border: none;
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 800%;
+    padding-left: 2rem;   
+}
+.button2{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 6rem;
+} 
+.slider{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 1150%;
+    transition: 0.5s;
+}
+.slider2{
+    display: flex;
+    width: 1000%;
+    transition: 0.5s;
+}
+.slide-p{
+    font-weight: 300px;
+    width: 90%;
+}
+.logo{
+    border-radius: 100%;
+    width: 15%;
+}
+.pink{
+    color: rgb(253, 153, 168);
+    font-size: 20px;
+  }
